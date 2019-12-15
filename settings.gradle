@@ -1,0 +1,2 @@
+include ':app', ':lab4_2', ':biblib', ':biblib-1.0-SNAPSHOT'
+rootProject.name='lab4'
