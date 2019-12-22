@@ -9,10 +9,10 @@ public class Object {
     String volume;
     Object (String author, String title, String journal, String year, String volume){
         this.author = !author.isEmpty() ? author : "Empty";
-        this.title = !title.isEmpty() ? author : "Empty";
-        this.journal = !journal.isEmpty() ? author : "Empty";
-        this.year = !year.isEmpty() ? author : "Empty";
-        this.volume = !volume.isEmpty() ? author : "Empty";
+        this.title = !title.isEmpty() ? title : "Empty";
+        this.journal = !journal.isEmpty() ? journal : "Empty";
+        this.year = !year.isEmpty() ? year : "Empty";
+        this.volume = !volume.isEmpty() ? volume : "Empty";
     }
 
     public String getAuthor() {
